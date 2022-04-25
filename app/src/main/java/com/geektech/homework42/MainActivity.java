@@ -16,6 +16,7 @@ import androidx.navigation.ui.NavigationUI;
 
 import com.geektech.homework42.databinding.ActivityMainBinding;
 
+import java.io.File;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -40,8 +41,12 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
 
 
+        //Prefs prefs = new Prefs(this);
+        //if(!prefs.isShown())
+            navController.navigate(R.id.boardFragment);
 
-        navController.navigate(R.id.boardFragment);
+
+
         navController.addOnDestinationChangedListener(new NavController.OnDestinationChangedListener() {
             @Override
             public void onDestinationChanged(@NonNull NavController navController, @NonNull NavDestination navDestination, @Nullable Bundle bundle) {
@@ -67,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
                     getSupportActionBar().show();
             }
         });
+
     }
 
     @Override
@@ -75,6 +81,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onStartClick(View view) {
-        navController.navigate(R.id.navigation_home);
+        navController.navigateUp();
+
+
+
     }
+//    private void files() {
+//        File dir = new File(getCacheDir(),"media");
+//        dir.mkdir();
+//
+//        File file = new File(getCacheDir(), "note.txt");
+//        if (file.exists()) {
+//            file.delete();
+//        } else{
+//            file.createNewFile();
+//    }
+//    }
 }

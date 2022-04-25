@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".profile.ProfileFragment">
 
-    <androidx.cardview.widget.CardView
-        android:layout_gravity="center"
-        android:layout_marginBottom="40dp"
-        android:id="@+id/card_view"
-        app:cardCornerRadius="200dp"
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_view"
+        android:layout_marginTop="80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="300dp"
-        android:layout_height="300dp">
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_person" />
 
-        <ImageView
-            android:id="@+id/image_view"
-            android:src="@drawable/ic_person"
-            android:scaleType="centerCrop"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
 
-    </androidx.cardview.widget.CardView>
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="80dp"
+        android:hint="Enter your name"
+        app:layout_constraintTop_toBottomOf="@+id/image_view" />
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
