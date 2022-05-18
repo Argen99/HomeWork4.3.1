@@ -6,11 +6,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.BoardFragment">
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        app:lottie_rawRes="@raw/balls"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:lottie_url="REPLACE_JSON_URL"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
     <androidx.viewpager2.widget.ViewPager2
         android:scrollIndicators="bottom"
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
 
     <TextView
         android:id="@+id/text_skip"

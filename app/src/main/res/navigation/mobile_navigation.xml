@@ -31,10 +31,31 @@
         android:id="@+id/navigation_profile"
         android:name="com.geektech.homework42.profile.ProfileFragment"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile"/>
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_navigation_profile_to_gorillaFragment"
+            app:destination="@id/imageFragment" />
+    </fragment>
+
     <fragment
         android:id="@+id/boardFragment"
         android:name="com.geektech.homework42.ui.BoardFragment"
         android:label="fragment_board"
         tools:layout="@layout/fragment_board" />
+    <fragment
+        android:id="@+id/imageFragment"
+        android:name="com.geektech.homework42.ImageFragment"
+        android:label="fragment_image"
+        tools:layout="@layout/fragment_image" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.geektech.homework42.ui.auth.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/verifyFragment"
+        android:name="com.geektech.homework42.ui.auth.VerifyFragment"
+        android:label="fragment_verify"
+        tools:layout="@layout/fragment_verify" />
+
 </navigation>

@@ -23,15 +23,13 @@ public class Prefs {
     }
 
 
-
-
     public void saveState(String name){
 
-        // preferences.edit().putBoolean("isShown",true).apply();
+        preferences.edit().putBoolean("isShown",true).apply();
         preferences.edit().putString("name", name);
     }
 
     public boolean isShown(){
-        return preferences.getBoolean("isShown",false);
+        return preferences.getBoolean("isShown",true);
     }
 }

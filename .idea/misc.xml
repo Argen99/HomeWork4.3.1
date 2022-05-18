@@ -3,16 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/drawable/bg_text.xml" value="0.1" />
         <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/drawable/layer_list.xml" value="0.107" />
         <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_board.xml" value="0.25" />
         <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_dashboard.xml" value="0.24728260869565216" />
-        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_home.xml" value="0.16" />
-        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_news.xml" value="0.14" />
-        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_image.xml" value="0.23867753623188406" />
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_news.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/fragment_verify.xml" value="0.19" />
         <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/item_news.xml" value="0.33" />
-        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/pager_board.xml" value="0.1" />
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/layout/pager_board.xml" value="0.25" />
         <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/menu/bottom_nav_menu.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/menu/example_menu.xml" value="0.25" />
+        <entry key="..\:/Users/User/Desktop/Android Studio/HomeWork42/app/src/main/res/menu/home_menu.xml" value="0.22" />
       </map>
     </option>
   </component>
